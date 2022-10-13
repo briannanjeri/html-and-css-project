@@ -1,0 +1,473 @@
+*{
+margin: 0;
+padding: 0;
+width: 100%;
+position: relative;
+font-family: 'Space Grotesk', sans-serif;
+max-width: 1200px;
+}
+
+
+.header-features ul{
+position: fixed;
+top: 0;   
+display: flex;
+justify-content: space-between;
+width: 80%;
+margin: auto;
+left: 80px;
+align-items: center;
+font-family: 'Space Grotesk', sans-serif;
+margin-bottom: 20px;
+text-align: center;
+
+}
+nav ul li{
+list-style: none;
+
+}
+
+nav ul li a{
+text-decoration: none;
+    
+    }
+
+.button{
+background-color: #2196f3;
+color: #fff;
+border: 2px solid #fff;
+padding: 10px 10px;
+border-radius: 5px;
+
+}
+.logo{
+
+    font-family: 'Oleo Script', cursive;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+ hr{
+  width: 100%;  
+  bottom: 50px;
+  border-width: 2px;
+
+}
+
+#container2{
+margin-top: 90px;
+display: flex;
+flex-wrap: wrap;
+flex-basis: 100%;
+margin-bottom: 30px;
+
+
+
+}
+img{
+    width: 100%;
+    
+    }
+
+
+.estate-features{
+ display: flex;
+flex-wrap: wrap;
+font-size: 35px;
+font-weight: 700;
+flex-basis: 35%;
+margin: auto;
+
+}
+.Note{
+    color: mediumblue;
+}
+
+.estate-features p{
+  font-size: 20px;
+  margin-top: 10px;
+
+
+}   
+
+.additional-features{
+    font-size: 16px;
+    border: 1px solid #fff;
+    width: 100px;
+    background-color: #2196f3;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 10px;
+    text-align: center;
+    margin-top: 5px;
+} 
+
+.estate-image{
+display: flex;
+flex-basis: 35%;
+margin: auto;
+
+
+}
+
+.container3{
+text-align: center;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+width: 100%;
+margin: auto;
+margin-bottom: 30px;
+}
+
+.container3 ul{
+display: flex;
+list-style: none;
+
+}
+
+.container3 ul li a{
+    text-decoration: none;
+
+}
+.search-btn a{
+color: #fff;
+background-color: #2196f3;
+border: 1px solid #fff;
+border-radius: 5px;
+width: 80px;
+padding: 10px 10px;
+text-align: center;
+display: flex;
+}
+
+.search-btn {
+    text-align: center;
+}
+
+
+.main-title{
+font-size: 10px;
+margin-left: 20px;
+color: darkblue;
+}
+
+.subtitle{
+text-align: center;
+margin-top: 10px;
+}
+
+.subtitle h2{
+
+color: darkblue;
+}
+
+.subtitle p{
+    margin-bottom: 20px;
+    }
+
+.product-features {
+    flex-basis: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+        margin-bottom: 50px;
+
+    
+        }
+
+
+    .features-img{
+     flex-basis: 30%;
+     margin: auto;
+     box-shadow: 2px 5px 10px;
+     border-radius: 5px;
+     margin-bottom: 20px;
+     height: 220px;
+     padding-top: 10px;
+            }
+
+.features-img img{
+width: 20%;
+
+}
+.image1{
+    width: 20%;
+
+}
+
+.features-img h1 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.features-img p {
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.service-box{
+flex-basis: 80%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin: auto;
+align-items:center;
+text-align: center;
+margin-bottom: 80PX;
+
+
+}
+.service-img{
+    flex-basis: 48%;
+    margin: auto;
+}
+
+.service-img img{
+  width: 70%;
+}
+
+.service-features{
+flex-basis: 40%;
+display: flex;
+flex-wrap: wrap;
+margin: auto;
+
+}
+
+.service-features h1{
+
+color: darkblue;
+margin-bottom: 8px;
+}
+.service-features p{
+
+    margin-bottom: 10px;
+    }
+
+.links{
+    display: flex;
+    list-style: none;
+    
+    
+    
+    }
+
+.My-links{
+display: flex;
+flex-wrap: wrap;
+padding-left: 30px;
+}
+
+
+
+.links1, .links2, .links3, .links4{
+    display: flex;
+    list-style: none;
+
+}
+    
+
+
+.links1::before{
+content: "\f046";
+color:blue;
+display: inline-block;
+ font: normal normal normal 14px/1 FontAwesome;
+font-size: inherit;
+ text-rendering: auto;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothi    
+}
+    .links2::before, .links3::before, .links4::before{
+
+    content: "\f046";
+    color:blue;
+    display: inline-block;
+     font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+     text-rendering: auto;
+     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothi    
+    
+        
+        }
+            
+    
+    
+    
+    
+    
+
+
+.service-features a{
+    text-decoration: none;
+    color: #2196f3;
+    
+    
+    }
+
+
+.property-features{
+flex-basis: 80%;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+margin-bottom: 10px;
+
+    }
+
+    .my-container{
+      position: relative;  
+      margin-bottom: 80px;
+
+    }
+    .more-details{
+position: absolute;
+right: 250px;
+border: 2px solid #fff;
+background:#2196f3;
+color: #fff;
+border-radius: 5px;
+text-align: center;
+width: 100px;
+padding: 10px 5px;
+
+    }
+    
+
+
+.features-desc{
+flex-basis: 30%;
+display: flex;
+flex-wrap: wrap;
+margin: auto;
+ }
+ .features-desc img{
+width: 70%;
+padding-left: 35px;
+
+}
+.desc1{
+
+    display: flex;
+    text-align: center;
+    
+}
+.desc2{
+    text-align: center;
+    display: flex;
+    color: #2196f3;
+}
+.desc1, .desc2{
+list-style: none;
+    
+}
+
+.property-desc{
+
+    flex-basis: 40%;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.property-desc h1{
+color: darkblue;
+    
+}
+
+.clients{
+    margin-bottom: 20px;
+    text-align: center;
+    
+    }
+.clients h1{
+  color: darkblue;
+  margin-bottom: 5px;
+        
+ }
+   
+ .clients-suggestions{
+    flex-basis: 70%;
+    margin: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 70px;
+
+}
+.clients-details{
+flex-basis: 22%;
+
+}
+
+.clients-details h5{
+    margin-bottom: 10px;
+    
+    }
+
+ .more-details1{
+margin:5px 5px;
+padding: 10px 5px;
+border: 2px solid #fff;
+background:#2196f3;
+color: #fff;
+border-radius: 5px;
+text-align: center;
+width: 100px;
+    }
+
+
+   .footer {
+flex-basis: 100%;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-around;
+background-color: darkblue;
+
+}
+
+
+
+   .footer-details{
+    flex-basis: 20%;
+    color: #fff;
+    padding-top: 50px;
+
+}
+
+.estate-features{
+font-size: 16px;
+}
+.estate-features p{
+font-size: 16px;
+padding-bottom:15px;
+
+}
+
+.footer-details h2{
+    
+    margin-bottom: 5px;
+
+}
+
+.footer-details li{
+    list-style:none;
+    margin-bottom: 8px;
+
+}
+.footer-details li a{
+    text-decoration: none;
+    color: white;
+
+}
